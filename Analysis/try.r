@@ -1,3 +1,2 @@
-print("R is working!")
-cat("R version:", R.version.string, "\n")
-2 + 5
+df <- read.csv("Raw Data/My1stDataframe.csv")
+head(df)
